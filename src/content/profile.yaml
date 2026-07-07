@@ -5,10 +5,10 @@ summary: "I develop data-driven methods to evaluate driving risk, identify safet
 location: "Orlando, FL (Open to Remote / Relocation)"
 socials:
   cv: "/YangJunJoo_CV.pdf"
-  scholar: "https://scholar.google.com/citations?user=placeholder"
-  linkedin: "https://linkedin.com/in/yangjun-joo"
-  email: "mailto:yj.joo@ucf.edu"
-  github: "https://github.com/yangjun-joo"
+  scholar: "https://scholar.google.com/citations?user=xPJpVcMAAAAJ&hl=en"
+  linkedin: "https://www.linkedin.com/in/yang-jun-joo-a8012820a/"
+  email: "mailto:yangjunjoo.phd@gmail.com"
+  github: "https://github.com/YangJunJoo"
 focus_areas:
   - title: "Autonomous Driving Safety"
     description: "Developing human-aligned and uncertainty-aware driving risk metrics to identify and evaluate safety-critical scenarios for next-generation autonomous vehicle systems."

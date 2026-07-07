@@ -1,0 +1,64 @@
+---
+import { getProfile } from '../utils/content';
+const profile = getProfile();
+---
+
+<section class="py-20 md:py-28 bg-white border-b border-slate-200/50">
+  <div class="mx-auto max-w-4xl px-6 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
+    <div class="flex-1 space-y-6">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold tracking-wide uppercase select-none">
+        <span>Applied Researcher</span>
+      </div>
+      
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        {profile.name}
+      </h1>
+      
+      <p class="text-lg md:text-xl font-medium text-slate-600 leading-relaxed max-w-2xl">
+        {profile.headline}
+      </p>
+      
+      <p class="text-base text-slate-500 leading-relaxed max-w-2xl">
+        {profile.summary}
+      </p>
+      
+      <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+        <a
+          href={profile.socials.cv}
+          download
+          class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-transparent text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-colors shadow-sm"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Download CV
+        </a>
+        
+        <a
+          href={profile.socials.scholar}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-slate-200 text-sm font-semibold bg-white text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors"
+        >
+          Google Scholar
+        </a>
+        
+        <a
+          href={profile.socials.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-slate-200 text-sm font-semibold bg-white text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors"
+        >
+          LinkedIn
+        </a>
+        
+        <a
+          href={profile.socials.email}
+          class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-slate-200 text-sm font-semibold bg-white text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors"
+        >
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+---
+import Layout from '../components/Layout.astro';
+import Section from '../components/Section.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { getProjects } from '../utils/content';
+
+const projects = getProjects();
+---
+
+<Layout 
+  title="Projects | Autonomous Driving Safety, VLMs, and Mobility Data Analytics" 
+  description="Explore Dr. Yang-Jun Joo's applied research projects covering VLM-based risk perception, conformal prediction for autonomous driving, large-scale ATSPM data pipelines, and traffic conflict models."
+>
+  <Section 
+    title="Applied Research Projects" 
+    subtitle="Data-driven methodologies and AI-powered workflows targeting autonomous driving safety, big data pipelines, and infrastructure risk analytics."
+  >
+    <div class="space-y-12 mt-8">
+      {projects.map((project) => (
+        <ProjectCard project={project} isDetailed={true} />
+      ))}
+    </div>
+  </Section>
+</Layout>

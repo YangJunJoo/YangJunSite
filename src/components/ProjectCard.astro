@@ -1,0 +1,76 @@
+---
+import type { Project } from '../utils/content';
+
+interface Props {
+  project: Project;
+  isDetailed?: boolean;
+}
+
+const { project, isDetailed = false } = Astro.props;
+
+// Helper to determine status color
+const getStatusClass = (status: string) => {
+  const s = status.toLowerCase();
+  if (s.includes('accepted') || s.includes('published')) {
+    return 'bg-emerald-50 text-emerald-700 border-emerald-100';
+  }
+  if (s.includes('revision') || s.includes('review')) {
+    return 'bg-amber-50 text-amber-700 border-amber-100';
+  }
+  return 'bg-blue-50 text-blue-700 border-blue-100'; // dot project or under preparation
+};
+---
+
+<div class="p-6 md:p-8 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 transition-all duration-150 flex flex-col gap-6">
+  <div class="flex flex-wrap items-start justify-between gap-4">
+    <div class="space-y-2">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs font-semibold tracking-wider text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded border border-indigo-100 uppercase select-none">
+          {project.category}
+        </span>
+        <span class={`text-xs font-semibold px-2.5 py-1 rounded border select-none ${getStatusClass(project.status)}`}>
+          {project.status}
+        </span>
+      </div>
+      <h3 class="text-xl font-bold text-slate-900 tracking-tight">{project.title}</h3>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap gap-1.5">
+    {project.tags.map((tag) => (
+      <span class="text-xs font-medium text-slate-500 bg-slate-100 border border-slate-200/60 px-2 py-0.5 rounded">
+        {tag}
+      </span>
+    ))}
+  </div>
+
+  <div class="grid grid-cols-1 gap-4 text-sm">
+    <div class="space-y-1">
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Problem</span>
+      <p class="text-slate-700 leading-relaxed">{project.problem}</p>
+    </div>
+
+    {isDetailed && (
+      <>
+        <div class="space-y-1">
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Data Source / Inputs</span>
+          <p class="text-slate-700 leading-relaxed">{project.data}</p>
+        </div>
+        <div class="space-y-1">
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Analytical Methods</span>
+          <p class="text-slate-700 leading-relaxed">{project.methods}</p>
+        </div>
+      </>
+    )}
+
+    <div class="space-y-1">
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Output / Status</span>
+      <p class="text-slate-700 leading-relaxed">{project.output}</p>
+    </div>
+
+    <div class="space-y-1 bg-slate-50 border border-slate-100 rounded-lg p-4 mt-2">
+      <span class="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">Industry Relevance</span>
+      <p class="text-indigo-900/90 font-medium leading-relaxed">{project.industry_relevance}</p>
+    </div>
+  </div>
+</div>

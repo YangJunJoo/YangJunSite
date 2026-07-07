@@ -1,0 +1,24 @@
+---
+import Layout from '../components/Layout.astro';
+import Section from '../components/Section.astro';
+import SkillGroup from '../components/SkillGroup.astro';
+import { getSkills } from '../utils/content';
+
+const skills = getSkills();
+---
+
+<Layout 
+  title="Skills | Mobility AI, Transportation Safety, and Data Analytics" 
+  description="Technical strengths of Dr. Yang-Jun Joo including Python, SQL, machine learning, conformal prediction, vision-language models, ATSPM traffic signal analytics, and DOT project delivery."
+>
+  <Section 
+    title="Technical Strengths & Skillsets" 
+    subtitle="A comprehensive overview of programming, mathematical frameworks, domain expertise, and communicative capabilities Dr. Joo applies to real-world mobility challenges."
+  >
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      {skills.map((skillGroup) => (
+        <SkillGroup skillGroup={skillGroup} isDetailed={true} />
+      ))}
+    </div>
+  </Section>
+</Layout>

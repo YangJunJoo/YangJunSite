@@ -1,0 +1,85 @@
+---
+import { getProfile } from '../utils/content';
+const profile = getProfile();
+---
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+  <a
+    href={profile.socials.email}
+    class="flex items-center gap-4 p-5 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 hover:shadow-sm transition-all duration-150 group"
+  >
+    <div class="h-10 w-10 rounded-lg bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-650 group-hover:bg-indigo-100/60 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    </div>
+    <div>
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Email</span>
+      <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">{profile.socials.email.replace('mailto:', '')}</span>
+    </div>
+  </a>
+
+  <a
+    href={profile.socials.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex items-center gap-4 p-5 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 hover:shadow-sm transition-all duration-150 group"
+  >
+    <div class="h-10 w-10 rounded-lg bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-650 group-hover:bg-indigo-100/60 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+      </svg>
+    </div>
+    <div>
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">LinkedIn</span>
+      <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">yangjun-joo</span>
+    </div>
+  </a>
+
+  <a
+    href={profile.socials.scholar}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex items-center gap-4 p-5 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 hover:shadow-sm transition-all duration-150 group"
+  >
+    <div class="h-10 w-10 rounded-lg bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-650 group-hover:bg-indigo-100/60 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    </div>
+    <div>
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Publications</span>
+      <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Google Scholar Profile</span>
+    </div>
+  </a>
+
+  {profile.socials.github && (
+    <a
+      href={profile.socials.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-4 p-5 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 hover:shadow-sm transition-all duration-150 group"
+    >
+      <div class="h-10 w-10 rounded-lg bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-650 group-hover:bg-indigo-100/60 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        </svg>
+      </div>
+      <div>
+        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">GitHub</span>
+        <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">yangjun-joo</span>
+      </div>
+    </a>
+  )}
+
+  <a
+    href={profile.socials.cv}
+    download
+    class="flex sm:col-span-2 items-center justify-center gap-2.5 p-5 bg-slate-900 border border-transparent rounded-xl text-white hover:bg-slate-800 hover:shadow-sm transition-all duration-150 group text-center"
+  >
+    <svg xmlns="http://www.w3.org/2500/svg" class="h-5 w-5 text-slate-300 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+    </svg>
+    <span class="text-sm font-bold">Download Curriculum Vitae (PDF)</span>
+  </a>
+</div>

@@ -1,0 +1,26 @@
+---
+import Layout from '../components/Layout.astro';
+import Section from '../components/Section.astro';
+import ContactButtons from '../components/ContactButtons.astro';
+---
+
+<Layout 
+  title="Contact | Yang-Jun Joo, Ph.D." 
+  description="Contact information and professional channels for Dr. Yang-Jun Joo. Reach out for collaborations, roles, or inquiries about traffic safety and autonomous mobility AI."
+>
+  <Section 
+    title="Get In Touch" 
+    subtitle="I am active in the intelligent transportation, autonomous systems, and safety modeling research communities. Please feel free to reach out via email, LinkedIn, or explore my publications."
+  >
+    <div class="mt-12 bg-white border border-slate-200/80 rounded-2xl p-6 md:p-10 max-w-3xl mx-auto shadow-sm">
+      <div class="text-center max-w-xl mx-auto mb-10">
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Collaboration & Opportunities</h3>
+        <p class="text-sm text-slate-500 leading-relaxed">
+          Whether you are looking for an applied researcher with expertise in autonomous driving safety, a data scientist for smart mobility, or want to discuss joint publications and research proposals, feel free to contact me.
+        </p>
+      </div>
+      
+      <ContactButtons />
+    </div>
+  </Section>
+</Layout>

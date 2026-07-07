@@ -1,0 +1,16 @@
+# dependency directories
+node/
+node_modules/
+
+# build outputs
+dist/
+.astro/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system files
+.DS_Store
+Thumbs.db

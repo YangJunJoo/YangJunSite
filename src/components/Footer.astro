@@ -1,0 +1,22 @@
+---
+import { getProfile } from '../utils/content';
+const profile = getProfile();
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-200/60 bg-white py-12 mt-auto">
+  <div class="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-500">
+    <div class="text-center md:text-left">
+      <p class="font-medium text-slate-700">© {currentYear} {profile.name}</p>
+      <p class="mt-1 text-slate-500 text-xs">Applied Researcher · Autonomous Driving Safety & Mobility AI</p>
+    </div>
+    
+    <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+      <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+      <a href={profile.socials.scholar} target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Google Scholar</a>
+      <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+      <a href={profile.socials.email} class="hover:text-slate-900 transition-colors">Email</a>
+      <a href={profile.socials.cv} download class="hover:text-slate-900 transition-colors">Download CV</a>
+    </div>
+  </div>
+</footer>

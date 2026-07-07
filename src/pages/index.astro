@@ -1,0 +1,125 @@
+---
+import Layout from '../components/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Section from '../components/Section.astro';
+import FocusAreaCard from '../components/FocusAreaCard.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import SkillGroup from '../components/SkillGroup.astro';
+import PublicationCard from '../components/PublicationCard.astro';
+import ExperienceTimeline from '../components/ExperienceTimeline.astro';
+
+import { getProfile, getProjects, getSkills, getPublications } from '../utils/content';
+
+const profile = getProfile();
+const projects = getProjects().filter(p => p.featured).slice(0, 3);
+const skills = getSkills();
+const publicationGroups = getPublications();
+
+// Collect a few selected publications for the home page preview
+const selectedPublications = publicationGroups
+  .flatMap(group => group.items)
+  .slice(0, 3);
+---
+
+<Layout title={profile.title} description={profile.summary}>
+  <!-- Hero Section -->
+  <Hero />
+
+  <!-- Focus Areas -->
+  <Section title="Research Focus Areas" subtitle="Key domains at the intersection of traffic engineering, machine learning, and vehicle safety.">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+      {profile.focus_areas.map((area) => (
+        <FocusAreaCard title={area.title} description={area.description} />
+      ))}
+    </div>
+  </Section>
+
+  <!-- Featured Projects -->
+  <Section title="Featured Projects" subtitle="Highlighting applied research and technical developments in autonomous safety and traffic intelligence.">
+    <div class="space-y-8 mt-8">
+      {projects.map((project) => (
+        <ProjectCard project={project} isDetailed={false} />
+      ))}
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/projects" class="inline-flex items-center text-sm font-semibold text-indigo-650 hover:text-indigo-850">
+        View All Projects
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </Section>
+
+  <!-- Technical Strengths Preview -->
+  <Section title="Technical Strengths" subtitle="Core competencies translated from rigorous academic research into industry-ready workflows.">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+      {skills.slice(0, 4).map((skillGroup) => (
+        <SkillGroup skillGroup={skillGroup} isDetailed={false} />
+      ))}
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/skills" class="inline-flex items-center text-sm font-semibold text-indigo-650 hover:text-indigo-850">
+        View Detailed Skills
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </Section>
+
+  <!-- Selected Publications Preview -->
+  <Section title="Selected Publications" subtitle="Peer-reviewed research in top-tier intelligent transportation systems and computer vision venues.">
+    <div class="space-y-6 mt-8">
+      {selectedPublications.map((pub) => (
+        <PublicationCard publication={pub} />
+      ))}
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/publications" class="inline-flex items-center text-sm font-semibold text-indigo-650 hover:text-indigo-850">
+        View All Publications
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </Section>
+
+  <!-- Experience Preview -->
+  <Section title="Professional Timeline" subtitle="Postdoctoral and doctoral positions at leading transportation research centers.">
+    <div class="mt-8">
+      <ExperienceTimeline limit={2} />
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/experience" class="inline-flex items-center text-sm font-semibold text-indigo-650 hover:text-indigo-850">
+        View Full Experience & Education
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </Section>
+
+  <!-- Contact CTA -->
+  <section class="py-16 bg-slate-900 text-white">
+    <div class="mx-auto max-w-4xl px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">
+        Interested in autonomous driving safety, mobility AI, or large-scale transportation data analytics?
+      </h2>
+      <p class="mt-4 text-slate-400 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
+        Let's connect. I am open to applied researcher and data science roles within safety engineering, risk analytics, and smart mobility domains.
+      </p>
+      <div class="mt-8">
+        <a
+          href="/contact"
+          class="inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm font-bold bg-white text-slate-900 hover:bg-slate-100 transition-colors shadow-sm"
+        >
+          Get In Touch
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 text-slate-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

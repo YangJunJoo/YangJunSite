@@ -1,0 +1,57 @@
+- group: "Autonomous Driving, VLM, and AI Safety"
+  items:
+    - title: "Conformalized Vision-Language Models for Uncertainty-Aware Risk Assessment in Autonomous Driving"
+      authors: "Yang-Jun Joo, Mohamed Abdel-Aty"
+      venue: "Accepted at 2026 ICML Workshop / WACV 2027 Preparation"
+      year: 2026
+      tags:
+        - "Conformal Prediction"
+        - "Vision-Language Models"
+        - "Autonomous Driving"
+        - "Safety"
+      summary: "This paper proposes a mathematical framework using conformal prediction to calibrate the uncertainty of vision-language models when evaluating driving risks."
+      industry_relevance: "It provides a robust mathematical screening tool for AV companies to catch safety-critical edge cases with statistical coverage guarantees."
+      link: "#"
+
+    - title: "Aligning Automated Driving Risk: A Vision-Language-Human Validation Paradigm"
+      authors: "Yang-Jun Joo, Mohamed Abdel-Aty, et al."
+      venue: "IEEE Transactions on Intelligent Transportation Systems (Under Revision)"
+      year: 2026
+      tags:
+        - "Vision-Language Models"
+        - "Autonomous Driving"
+        - "Risk Perception"
+        - "IEEE T-ITS"
+      summary: "Investigates the alignment between human driver risk perception and vision-language model interpretations across diverse edge-case scenarios."
+      industry_relevance: "Provides key methodologies for validating AV safety metrics against real-world human risk tolerance and behavior."
+      link: "#"
+
+- group: "Transportation Safety and Smart Mobility"
+  items:
+    - title: "Evaluating Driving Conflict Risk and Rear-End Risks via Traffic Signal Controller Data"
+      authors: "Yang-Jun Joo, Mohamed Abdel-Aty"
+      venue: "IEEE Transactions on Intelligent Transportation Systems (Accepted)"
+      year: 2025
+      tags:
+        - "Conflict Risk"
+        - "Rear-End Risk"
+        - "Smart Mobility"
+        - "IEEE T-ITS"
+      summary: "Combines high-resolution traffic controller events and vehicle detector logs to model conflict risks at signalized corridors."
+      industry_relevance: "Enables smart mobility and risk modeling teams to predict and mitigate localized crash risks without waiting for historical crash reports."
+      link: "#"
+
+- group: "Large-Scale Traffic Data and Signal Analytics"
+  items:
+    - title: "A Scalable Big Data Architecture for ATSPM and Real-Time Signal Analytics"
+      authors: "Yang-Jun Joo, Mohamed Abdel-Aty, et al."
+      venue: "Transportation Research Board (TRB) Annual Meeting"
+      year: 2024
+      tags:
+        - "ATSPM"
+        - "Big Data"
+        - "Data Pipeline"
+        - "DOT Project"
+      summary: "Designs and deploys an end-to-end data pipeline processing millions of high-resolution traffic signal event records daily for DOT stakeholders."
+      industry_relevance: "Demonstrates practical ability to design scalable mobility data warehouses and visual dashboards for real-time infrastructure monitoring."
+      link: "#"

@@ -1,0 +1,63 @@
+---
+import type { PublicationItem } from '../utils/content';
+
+interface Props {
+  publication: PublicationItem;
+}
+
+const { publication } = Astro.props;
+---
+
+<div class="p-6 bg-white border border-slate-200/80 rounded-xl hover:border-slate-300 transition-all duration-150 flex flex-col gap-4">
+  <div class="space-y-2">
+    <div class="flex items-center gap-2">
+      <span class="text-xs font-semibold text-indigo-700 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded">
+        {publication.year}
+      </span>
+      <span class="text-xs text-slate-500 font-medium">{publication.venue}</span>
+    </div>
+    
+    <h3 class="text-lg font-bold text-slate-900 leading-snug">
+      {publication.title}
+    </h3>
+    
+    <p class="text-sm text-slate-600 font-medium">
+      {publication.authors}
+    </p>
+  </div>
+
+  <div class="flex flex-wrap gap-1.5">
+    {publication.tags.map((tag) => (
+      <span class="text-[11px] font-medium text-slate-500 bg-slate-50 border border-slate-200/60 px-1.5 py-0.5 rounded">
+        {tag}
+      </span>
+    ))}
+  </div>
+
+  <div class="space-y-3 text-sm pt-2 border-t border-slate-100">
+    <div>
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Key Summary</span>
+      <p class="text-slate-600 leading-relaxed">{publication.summary}</p>
+    </div>
+    <div class="bg-indigo-50/50 border border-indigo-100/50 rounded-lg p-3">
+      <span class="text-xs font-bold text-indigo-700/80 uppercase tracking-wider block mb-1">Industry Value</span>
+      <p class="text-indigo-900 leading-relaxed font-medium">{publication.industry_relevance}</p>
+    </div>
+  </div>
+
+  {publication.link && publication.link !== '#' && (
+    <div class="mt-2 flex">
+      <a
+        href={publication.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center text-xs font-semibold text-indigo-650 hover:text-indigo-850 hover:underline"
+      >
+        View Paper
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    </div>
+  )}
+</div>

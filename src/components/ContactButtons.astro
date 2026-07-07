@@ -73,7 +73,7 @@ const profile = getProfile();
   )}
 
   <a
-    href={profile.socials.cv}
+    href={profile.socials.cv.startsWith('/') ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${profile.socials.cv}` : profile.socials.cv}
     download
     class="flex sm:col-span-2 items-center justify-center gap-2.5 p-5 bg-slate-900 border border-transparent rounded-xl text-white hover:bg-slate-800 hover:shadow-sm transition-all duration-150 group text-center"
   >

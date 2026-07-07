@@ -85,3 +85,6 @@ Since the site builds to pure static HTML/CSS/JS (in the `dist/` folder), it can
 2. Configure the build command as `npm run build`.
 3. Set the output directory to `dist`.
 4. Deploy!
+
+---
+*Last Updated: 2026-07-07*

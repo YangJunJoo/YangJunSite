@@ -1,0 +1,25 @@
+1. 약력
+ - 서울대학교 건설환경공학부 학사 (2014-2018)
+ - 서울대학교 건설환경공학부 석박통합과정, 교통공학 전공( 2018-2023)
+ - 서울대학교 건설환경공학부 박사후과정 (2023-2024)
+ - University of Central Florida Postdoctoral Researcher (2024-2027), 지도교수 Mohamed Abdel-Aty
+2. 영주권 상태
+ - 2026년 4월 EB2 NIW Approval
+ - 2026년 5월 EAD / 그린카드 지원 신청
+3. 가족 상태
+ - 아내: 밸런스 스쿨 잡마켓
+ - 아이: 2세 여아/ 2명 추가 계획 중
+4. 재정 상태
+ - 모아둔 돈 약 300k 가량.
+5. 연구
+ - Google scholar: https://scholar.google.com/citations?hl=ko&user=xPJpVcMAAAAJ&view_op=list_works&sortby=pubdate
+ - (Accepted) IEEE T-ITS (교통신호 관련), 2026 ICML Workshop (자율주행, VLM, Conformal Prediction 관련)
+ - (Revision 단계) IEEE T-ITS (자율주행, Perceived risk, Survey)
+ - (준비단계) 2027 WACV main (자율주행, VLM, Conformal Prediction), IEEE T-ITS (VLM, workflow automation)
+6. 프로젝트 및 실무
+ - DOT 프로젝트 3개 참여, Grant writing 경험 다수
+ - 한국 Research Scholarship PI 경험 2회 (경쟁적 Research Fund)
+ - 데시보드, 수십 테라바이트급 데이터 파이프라인 관리 경험(ATSPM 프로젝트)
+7. 희망사항
+ - (1지망) Waymo, Zoox, Tesla, Waabi 등 자율주행기업, 혹은 원격근무 기업 (아내의 workplace 비탄력성 고려)
+ - (2지망) 자율주행 관련 Finance 기업 혹은 보험회사

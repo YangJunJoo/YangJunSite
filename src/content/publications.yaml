@@ -26,32 +26,223 @@
       industry_relevance: "Provides key methodologies for validating AV safety metrics against real-world human risk tolerance and behavior."
       link: "#"
 
-- group: "Transportation Safety and Smart Mobility"
-  items:
-    - title: "Evaluating Driving Conflict Risk and Rear-End Risks via Traffic Signal Controller Data"
-      authors: "Yang-Jun Joo, Mohamed Abdel-Aty"
-      venue: "IEEE Transactions on Intelligent Transportation Systems (Accepted)"
+    - title: "MMCAformer: Macro-Micro Cross-Attention Transformer for Traffic Speed Prediction with Microscopic Connected Vehicle Driving Behavior"
+      authors: "L Han, M Abdel-Aty, Y Kim, YJ Joo, Z Islam"
+      venue: "arXiv preprint arXiv:2602.16730"
+      year: 2026
+      tags:
+        - "Transformer"
+        - "Connected Vehicles"
+        - "Traffic Speed Prediction"
+      summary: "Introduces a transformer architecture (MMCAformer) integrating macroscopic traffic patterns and microscopic driving behavior from connected vehicle telemetry."
+      industry_relevance: "Provides traffic managers and AV navigation systems with highly accurate, short-term speed prediction capabilities under dynamic traffic conditions."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:8k81kl-MbHgC"
+
+    - title: "Generative artificial intelligence for class imbalance in crash severity estimation with mixed data types"
+      authors: "EJ Kim, DK Kim, HS Lee, YJ Joo"
+      venue: "Transportation Research Record 2680 (6), 646-662"
+      year: 2026
+      tags:
+        - "Generative AI"
+        - "Tabular GAN"
+        - "Crash Severity"
+        - "Data Imbalance"
+      summary: "Leverages generative AI (like tabular GANs) to generate synthetic minority-class crash samples, resolving data imbalance issues in crash severity prediction models."
+      industry_relevance: "Enhances the predictive accuracy of insurance risk models and safety analytics tools where severe crashes are historically underrepresented."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:UebtZRa9Y70C"
+
+    - title: "Predictive Safety-Aware Transmit Rate Control Scheme for Real-Time Proactive Forward Collision Warning System"
+      authors: "YJ Joo, DK Kim, EJ Kim"
+      venue: "Available at SSRN 4927850"
+      year: 2024
+      tags:
+        - "V2X"
+        - "Collision Avoidance"
+        - "Transmit Rate Control"
+      summary: "Proposes a V2X transmit rate control scheme that dynamically adjusts the communication rate based on predictive safety risks to prevent forward collisions."
+      industry_relevance: "Improves wireless resource utilization in connected vehicles while ensuring zero safety compromises for real-time safety critical systems."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:W7OEmFMy1HYC"
+
+    - title: "Are Autonomous Vehicles Perceived as Riskier than Human Drivers?"
+      authors: "YJ Joo, J HWANG, M Abdel-Aty"
+      venue: "Available at SSRN 5437729"
       year: 2025
       tags:
-        - "Conflict Risk"
-        - "Rear-End Risk"
-        - "Smart Mobility"
-        - "IEEE T-ITS"
-      summary: "Combines high-resolution traffic controller events and vehicle detector logs to model conflict risks at signalized corridors."
-      industry_relevance: "Enables smart mobility and risk modeling teams to predict and mitigate localized crash risks without waiting for historical crash reports."
-      link: "#"
+        - "Autonomous Vehicles"
+        - "Risk Perception"
+        - "Public Trust"
+      summary: "Explores public perception of risk regarding autonomous vehicles vs. human drivers, utilizing empirical survey data to model and quantify perceived risk."
+      industry_relevance: "Helps AV companies and policymakers design trust-building campaigns and address public anxiety regarding AV safety."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:roLk4NBRz8UC"
+
+- group: "Transportation Safety and Smart Mobility"
+  items:
+    - title: "Micro-level hotspot identification at intersections using traffic conflict analysis"
+      authors: "N Park, J Park, YJ Joo, M Abdel-Aty"
+      venue: "Accident Analysis & Prevention 220, 108167"
+      year: 2025
+      tags:
+        - "Hotspot Identification"
+        - "Traffic Conflicts"
+        - "Video Analytics"
+      summary: "Utilizes video-based traffic conflict metrics to detect micro-level intersection safety hotspots before crashes actually occur."
+      industry_relevance: "Enables cities to conduct proactive infrastructure safety audits, saving millions in emergency safety repairs."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:Se3iqnhoufwC"
+
+    - title: "Propagation of Positional Measurement Errors in Traffic Conflict Analysis"
+      authors: "YJ Joo, Z Islam, M Abdel-Aty, DK Kim"
+      venue: "Transportation Research Record, 03611981251398748"
+      year: 2025
+      tags:
+        - "Error Propagation"
+        - "Conflict Indicators"
+        - "Safety Metrics"
+      summary: "Formulates how GPS/video tracking positional errors propagate into calculated traffic conflict indicators like Time-to-Collision (TTC)."
+      industry_relevance: "Provides error-correction bounds for computer vision teams developing automated safety monitoring systems."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:hqOjcs7Dif8C"
+
+    - title: "Queue Length-Based Priority Strategy for Unsignalized Intersections in Mixed-Traffic Environments"
+      authors: "BYH Kim, YJ Joo, J Choi, DK Kim"
+      venue: "Journal of Transportation Engineering, Part A: Systems 151 (9), 04025067"
+      year: 2025
+      tags:
+        - "Unsignalized Intersections"
+        - "Queue Optimization"
+        - "Autonomous Routing"
+      summary: "Develops a priority strategy for autonomous and connected vehicles at unsignalized intersections, optimizing queue lengths and minimizing delays."
+      industry_relevance: "Supports the design of traffic coordination systems for mixed autonomous/human driver environments."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:WF5omc3nYNoC"
+
+    - title: "Effects of heterogeneity in driving manoeuvres on calibrating car-following models at a roundabout"
+      authors: "J Choi, YJ Joo, DK Kim"
+      venue: "Transportmetrica B: Transport Dynamics 12 (1), 2386537"
+      year: 2024
+      tags:
+        - "Roundabout Calibration"
+        - "Car-Following Model"
+        - "Simulation"
+      summary: "Investigates how diverse driving styles and roundabout configurations affect the calibration and reliability of car-following traffic models."
+      industry_relevance: "Improves the fidelity of micro-simulation tools used by traffic engineers to evaluate new road designs."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:Y0pCki6q_DkC"
+
+    - title: "A generalized driving risk assessment on high-speed highways using field theory"
+      authors: "YJ Joo, EJ Kim, DK Kim, PY Park"
+      venue: "Analytic methods in accident research 40, 100303"
+      year: 2023
+      tags:
+        - "Field Theory"
+        - "Highway Safety"
+        - "Dynamic Risk Modeling"
+      summary: "Applies artificial potential field theory to model dynamic driving risk on high-speed expressways, capturing interactions between the vehicle, road geometry, and traffic flow."
+      industry_relevance: "Serves as a foundation for real-time collision-avoidance systems and adaptive cruise control safety wrappers on highways."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:IjCSPb-OGe4C"
+
+    - title: "A data-driven Bayesian network for probabilistic crash risk assessment of individual driver with traffic violation and crash records"
+      authors: "YJ Joo, SY Kho, DK Kim, HC Park"
+      venue: "Accident Analysis & Prevention 176, 106790"
+      year: 2022
+      tags:
+        - "Bayesian Network"
+        - "Driver Risk Assessment"
+        - "Safety Analytics"
+      summary: "Develops a probabilistic Bayesian network to assess individual driver crash risk by combining historic traffic violation records and crash demographics."
+      industry_relevance: "Enables auto insurance underwriters and commercial fleet managers to build personalized risk profiles and identify high-risk drivers."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:qjMakFHDy7sC"
+
+    - title: "Reliability-based assessment of potential risk for lane-changing maneuvers"
+      authors: "YJ Joo, HC Park, SY Kho, DK Kim"
+      venue: "Transportation research record 2675 (10), 161-173"
+      year: 2021
+      tags:
+        - "Lane-Changing Risk"
+        - "Reliability Theory"
+        - "ADAS Safety"
+      summary: "Introduces a reliability theory approach to quantify the instantaneous crash risk during lane-changing maneuvers, accounting for speed and spacing uncertainties."
+      industry_relevance: "Provides safety-critical thresholds for ADAS lane-keep assist systems to prevent side-swipe and rear-end collisions."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:9yKSN-GCB0IC"
+
+    - title: "Injury severity of bus–pedestrian crashes in South Korea considering the effects of regional and company factors"
+      authors: "HC Park, YJ Joo, SY Kho, DK Kim, BJ Park"
+      venue: "Sustainability 11 (11), 3169"
+      year: 2019
+      tags:
+        - "Transit Safety"
+        - "Pedestrian Safety"
+        - "Mixed-Effects Model"
+      summary: "Explores commercial transit safety by analyzing the multi-level effects of transit companies and regional environments on bus-pedestrian crash severity."
+      industry_relevance: "Helps municipal transit authorities identify systemic safety flaws and optimize driver training programs."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:d1gkVwhDpl0C"
+
+    - title: "Intersection Crash Frequency Analysis Considering Visual Environment Features Using Random Parameter Negative Binomial-Lindley Model"
+      authors: "L Han, M Abdel-Aty, YJ Joo, S Zhai, D Wang"
+      venue: "Transportation Research Record 2679 (12), 578-598"
+      year: 2025
+      tags:
+        - "Crash Frequency"
+        - "Visual Environment"
+        - "Statistical Modeling"
+      summary: "Analyzes how visual clutter, signage, and environmental factors influence the frequency of intersection crashes using random parameter statistical models."
+      industry_relevance: "Informs civil design on optimal signage placements to reduce driver cognitive load and crash rates."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:LkGwnXOMwfcC"
 
 - group: "Large-Scale Traffic Data and Signal Analytics"
   items:
-    - title: "A Scalable Big Data Architecture for ATSPM and Real-Time Signal Analytics"
-      authors: "Yang-Jun Joo, Mohamed Abdel-Aty, et al."
-      venue: "Transportation Research Board (TRB) Annual Meeting"
-      year: 2024
+    - title: "Arterial Network Traffic State Prediction with Connected Vehicle Data: An Abnormality-Aware Spatiotemporal Network"
+      authors: "L Han, M Abdel-Aty, YJ Joo"
+      venue: "arXiv preprint arXiv:2603.04432"
+      year: 2026
+      tags:
+        - "Connected Vehicles"
+        - "Spatiotemporal Model"
+        - "Traffic State Prediction"
+      summary: "Uses connected vehicle telemetry to build a spatiotemporal deep learning model capable of predicting arterial network congestion under non-recurrent anomalies."
+      industry_relevance: "Provides advanced traffic routing engines with real-time congestion forecasting during accidents or special events."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:MXK_kJrjxJIC"
+
+    - title: "Evaluating the Effect of Signal Adjustment on Rear-End Conflicts Using High-Resolution Event-Based Data"
+      authors: "YJ Joo, M Abdel-Aty, BMTH Anik, Z Islam"
+      venue: "IEEE Transactions on Intelligent Transportation Systems"
+      year: 2025
       tags:
         - "ATSPM"
-        - "Big Data"
-        - "Data Pipeline"
-        - "DOT Project"
-      summary: "Designs and deploys an end-to-end data pipeline processing millions of high-resolution traffic signal event records daily for DOT stakeholders."
-      industry_relevance: "Demonstrates practical ability to design scalable mobility data warehouses and visual dashboards for real-time infrastructure monitoring."
-      link: "#"
+        - "Signal Timing"
+        - "Rear-End Conflicts"
+      summary: "Leverages high-resolution event-data (ATSPM) to model how traffic signal timing adjustments impact rear-end conflict rates at signalized intersections."
+      industry_relevance: "Allows city traffic managers to tune signal timings to simultaneously optimize flow and safety."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:_FxGoFyzp5QC"
+
+    - title: "Prediction of Safety Opportunities Using Automated Traffic Signal Performance Measures"
+      authors: "MA Abdel-Aty, Z Islam, YJ Joo, BM Anik"
+      venue: "Transportation Research Record (Accepted)"
+      year: 2025
+      tags:
+        - "ATSPM"
+        - "Predictive Safety"
+        - "Traffic Signals"
+      summary: "Applies machine learning to automated traffic signal data (ATSPM) to predict times of high collision risk (safety opportunities) at signalized intersections."
+      industry_relevance: "Enables real-time warning indicators for municipal traffic management centers to deploy proactive safety interventions."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:5nxA0vEk-isC"
+
+    - title: "Order dispatching in ride-pooling with walking points search"
+      authors: "SY Park, YJ Joo, DK Kim"
+      venue: "Transportation Research Record 2678 (2), 666-677"
+      year: 2024
+      tags:
+        - "Ride-Pooling"
+        - "Optimization"
+        - "Shared Mobility"
+      summary: "Proposes a ride-pooling dispatching algorithm that dynamically routes passengers to nearby walking pickup/dropoff points to maximize system efficiency."
+      industry_relevance: "Helps ride-sharing platforms (like Uber/Lyft) reduce vehicle miles traveled (VMT) and operational costs while improving passenger wait times."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:UeHWp8X0CEIC"
+
+    - title: "Estimating Network-Wide Arterial Traffic Volume and Speed under Sparse Sensing Using Connected Vehicle Data"
+      authors: "S Yang, M Abdel-Aty, YJ Joo, L Han"
+      venue: "Available at SSRN 6240117"
+      year: 2025
+      tags:
+        - "Connected Vehicles"
+        - "Sparse Sensing"
+        - "Volume Estimation"
+      summary: "Models network-wide arterial traffic volumes and speeds by fusing sparse fixed detector data and low-penetration connected vehicle traces."
+      industry_relevance: "Lowers data-collection costs for departments of transportation by utilizing commercial CV data instead of physical loop detectors."
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:3fE2CSJIrl8C"

@@ -51,6 +51,7 @@ export interface PublicationItem {
   summary: string;
   industry_relevance: string;
   link?: string;
+  featured?: boolean;
 }
 
 export interface PublicationGroup {

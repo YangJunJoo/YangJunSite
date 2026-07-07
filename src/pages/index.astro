@@ -18,7 +18,7 @@ const publicationGroups = getPublications();
 // Collect a few selected publications for the home page preview
 const selectedPublications = publicationGroups
   .flatMap(group => group.items)
-  .slice(0, 3);
+  .filter(pub => pub.featured);
 
 const base = import.meta.env.BASE_URL;
 const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;

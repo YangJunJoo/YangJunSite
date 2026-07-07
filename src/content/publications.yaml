@@ -1,31 +1,5 @@
 - group: "Autonomous Driving, VLM, and AI Safety"
   items:
-    - title: "Conformalized Vision-Language Models for Uncertainty-Aware Risk Assessment in Autonomous Driving"
-      authors: "Yang-Jun Joo, Mohamed Abdel-Aty"
-      venue: "Accepted at 2026 ICML Workshop / WACV 2027 Preparation"
-      year: 2026
-      tags:
-        - "Conformal Prediction"
-        - "Vision-Language Models"
-        - "Autonomous Driving"
-        - "Safety"
-      summary: "This paper proposes a mathematical framework using conformal prediction to calibrate the uncertainty of vision-language models when evaluating driving risks."
-      industry_relevance: "It provides a robust mathematical screening tool for AV companies to catch safety-critical edge cases with statistical coverage guarantees."
-      link: "#"
-
-    - title: "Aligning Automated Driving Risk: A Vision-Language-Human Validation Paradigm"
-      authors: "Yang-Jun Joo, Mohamed Abdel-Aty, et al."
-      venue: "IEEE Transactions on Intelligent Transportation Systems (Under Revision)"
-      year: 2026
-      tags:
-        - "Vision-Language Models"
-        - "Autonomous Driving"
-        - "Risk Perception"
-        - "IEEE T-ITS"
-      summary: "Investigates the alignment between human driver risk perception and vision-language model interpretations across diverse edge-case scenarios."
-      industry_relevance: "Provides key methodologies for validating AV safety metrics against real-world human risk tolerance and behavior."
-      link: "#"
-
     - title: "MMCAformer: Macro-Micro Cross-Attention Transformer for Traffic Speed Prediction with Microscopic Connected Vehicle Driving Behavior"
       authors: "L Han, M Abdel-Aty, Y Kim, YJ Joo, Z Islam"
       venue: "arXiv preprint arXiv:2602.16730"
@@ -129,6 +103,7 @@
       authors: "YJ Joo, EJ Kim, DK Kim, PY Park"
       venue: "Analytic methods in accident research 40, 100303"
       year: 2023
+      featured: true
       tags:
         - "Field Theory"
         - "Highway Safety"
@@ -141,6 +116,7 @@
       authors: "YJ Joo, SY Kho, DK Kim, HC Park"
       venue: "Accident Analysis & Prevention 176, 106790"
       year: 2022
+      featured: true
       tags:
         - "Bayesian Network"
         - "Driver Risk Assessment"
@@ -203,6 +179,7 @@
       authors: "YJ Joo, M Abdel-Aty, BMTH Anik, Z Islam"
       venue: "IEEE Transactions on Intelligent Transportation Systems"
       year: 2025
+      featured: true
       tags:
         - "ATSPM"
         - "Signal Timing"
@@ -210,18 +187,6 @@
       summary: "Leverages high-resolution event-data (ATSPM) to model how traffic signal timing adjustments impact rear-end conflict rates at signalized intersections."
       industry_relevance: "Allows city traffic managers to tune signal timings to simultaneously optimize flow and safety."
       link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:_FxGoFyzp5QC"
-
-    - title: "Prediction of Safety Opportunities Using Automated Traffic Signal Performance Measures"
-      authors: "MA Abdel-Aty, Z Islam, YJ Joo, BM Anik"
-      venue: "Transportation Research Record (Accepted)"
-      year: 2025
-      tags:
-        - "ATSPM"
-        - "Predictive Safety"
-        - "Traffic Signals"
-      summary: "Applies machine learning to automated traffic signal data (ATSPM) to predict times of high collision risk (safety opportunities) at signalized intersections."
-      industry_relevance: "Enables real-time warning indicators for municipal traffic management centers to deploy proactive safety interventions."
-      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xPJpVcMAAAAJ&citation_for_view=xPJpVcMAAAAJ:5nxA0vEk-isC"
 
     - title: "Order dispatching in ride-pooling with walking points search"
       authors: "SY Park, YJ Joo, DK Kim"

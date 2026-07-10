@@ -91,15 +91,7 @@ const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
   <!-- Experience Preview -->
   <Section title="Professional Timeline" subtitle="Postdoctoral and doctoral positions at leading transportation research centers.">
     <div class="mt-8">
-      <ExperienceTimeline limit={2} />
-    </div>
-    <div class="mt-8 text-center">
-      <a href={`${cleanBase}/experience`} class="inline-flex items-center text-sm font-semibold text-indigo-650 hover:text-indigo-850">
-        View Full Experience & Education
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </a>
+      <ExperienceTimeline />
     </div>
   </Section>
 

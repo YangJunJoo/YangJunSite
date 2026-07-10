@@ -13,14 +13,16 @@ roles:
   - role: "Postdoctoral Researcher"
     institution: "Seoul National University"
     period: "2023–2024"
+    advisor: "Dong-Kyu Kim"
     bullets:
       - "Conducted transportation engineering and smart mobility research."
       - "Led and contributed to research projects related to traffic safety analytics and data-driven mobility systems."
       - "Gained experience as PI on competitive research scholarship projects (Sejong Science Fellowship)."
 
-  - role: "Ph.D. Researcher"
+  - role: "Ph.D. Candidate & Graduate Research Assistant"
     institution: "Seoul National University"
     period: "2018–2023"
+    advisor: "Dong-Kyu Kim"
     bullets:
       - "Completed doctoral research in transportation engineering focused on driving risk assessment."
       - "Developed expertise in traffic safety metrics, surrogate safety measures, and data-driven transportation systems."

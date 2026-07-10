@@ -8,6 +8,17 @@ interface Props {
 
 const { limit } = Astro.props;
 const roles = limit ? experience.roles.slice(0, limit) : experience.roles;
+
+const getAdvisorLink = (advisorName: string) => {
+  const name = advisorName.toLowerCase();
+  if (name.includes('abdel-aty') || name.includes('aty')) {
+    return 'https://scholar.google.com/citations?user=dG5K3sAAAAAJ';
+  }
+  if (name.includes('dong-kyu') || name.includes('dongkyu') || name.includes('동규')) {
+    return 'https://scholar.google.com/citations?user=IZmrE08AAAAJ';
+  }
+  return null;
+};
 ---
 
 <div class="space-y-12">
@@ -27,7 +38,14 @@ const roles = limit ? experience.roles.slice(0, limit) : experience.roles;
             </span>
             {role.advisor && (
               <span class="text-xs font-semibold">
-                Advisor: <span class="text-slate-700">{role.advisor}</span>
+                Advisor:{' '}
+                {getAdvisorLink(role.advisor) ? (
+                  <a href={getAdvisorLink(role.advisor)} target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-850 hover:underline transition-colors font-bold">
+                    {role.advisor}
+                  </a>
+                ) : (
+                  <span class="text-slate-700">{role.advisor}</span>
+                )}
               </span>
             )}
           </div>

@@ -4,27 +4,27 @@ roles:
     period: "2024–2027"
     advisor: "Mohamed Abdel-Aty"
     bullets:
-      - "Conduct research on transportation safety, autonomous driving risk assessment, traffic signal analytics, and smart mobility."
-      - "Contribute to DOT-funded projects involving large-scale traffic data, safety analytics, and decision-support tools."
-      - "Develop data-driven methods for identifying high-risk driving scenarios and evaluating safety-critical transportation systems."
-      - "Build and manage large-scale mobility data workflows, including ATSPM-based analytics and dashboard development."
-      - "Translate research findings into technical reports, manuscripts, and practical recommendations for transportation stakeholders."
+      - "Conduct research on autonomous driving safety evaluation, traffic signal analytics, and smart mobility."
+      - "Contribute to DOT-funded projects involving large-scale traffic data pipelines, safety analytics, and decision-support tools."
+      - "Develop data-driven methods and statistical experiments to evaluate autonomous vehicle safety-critical scenarios."
+      - "Build and manage large-scale mobility data workflows (SQL, Python), including ATSPM-based safety metrics."
+      - "Translate research findings and technical recommendations to state agencies and cross-functional stakeholders."
 
   - role: "Postdoctoral Researcher"
     institution: "Seoul National University"
     period: "2023–2024"
     bullets:
       - "Conducted transportation engineering and smart mobility research."
-      - "Led and contributed to research projects related to traffic safety and data-driven mobility systems."
-      - "Gained experience as PI on competitive research scholarship projects."
+      - "Led and contributed to research projects related to traffic safety analytics and data-driven mobility systems."
+      - "Gained experience as PI on competitive research scholarship projects (Sejong Science Fellowship)."
 
   - role: "Ph.D. Researcher"
     institution: "Seoul National University"
     period: "2018–2023"
     bullets:
-      - "Completed doctoral research in transportation engineering."
-      - "Developed expertise in traffic safety, smart mobility, and data-driven transportation systems."
-      - "Published research in transportation and mobility-related venues."
+      - "Completed doctoral research in transportation engineering focused on driving risk assessment."
+      - "Developed expertise in traffic safety metrics, surrogate safety measures, and data-driven transportation systems."
+      - "Published research in transportation and mobility-related venues, presenting findings at international conferences."
 
 education:
   - degree: "Ph.D., Civil and Environmental Engineering / Transportation Engineering"

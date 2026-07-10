@@ -5,6 +5,18 @@ import ProjectCard from '../components/ProjectCard.astro';
 import { getProjects } from '../utils/content';
 
 const projects = getProjects();
+
+const categories = [
+  "PI Research Project",
+  "Traffic Safety (Participating)",
+  "Artificial Intelligence (Participating)",
+  "Transportation Demand Forecasting (Participating)"
+];
+
+const groupedProjects = categories.map(cat => ({
+  name: cat,
+  items: projects.filter(p => p.category === cat)
+})).filter(group => group.items.length > 0);
 ---
 
 <Layout 
@@ -15,9 +27,23 @@ const projects = getProjects();
     title="Applied Research Projects" 
     subtitle="Data-driven methodologies and AI-powered workflows targeting autonomous driving safety, big data pipelines, and infrastructure risk analytics."
   >
-    <div class="space-y-12 mt-8">
-      {projects.map((project) => (
-        <ProjectCard project={project} isDetailed={true} />
+    <div class="space-y-16 mt-8">
+      {groupedProjects.map((group) => (
+        <div class="space-y-6">
+          <div class="border-b border-slate-200 pb-3">
+            <h2 class="text-2xl font-bold text-slate-800 tracking-tight flex items-center gap-3">
+              {group.name}
+              <span class="text-xs font-semibold px-2 py-0.5 bg-slate-100 border border-slate-200 rounded-full text-slate-600">
+                {group.items.length} {group.items.length === 1 ? 'Project' : 'Projects'}
+              </span>
+            </h2>
+          </div>
+          <div class="grid grid-cols-1 gap-8">
+            {group.items.map((project) => (
+              <ProjectCard project={project} isDetailed={true} />
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   </Section>

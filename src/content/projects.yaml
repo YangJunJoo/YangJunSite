@@ -47,7 +47,7 @@
 - title: "Prediction of Safety Opportunities Using Automated Traffic Signal Performance Measures"
   category: "Traffic Safety (Participating)"
   status: "Florida DOT Project (2024.05 – 2025.06)"
-  featured: false
+  featured: true
   tags:
     - "ATSPM"
     - "Traffic Signal Controller"

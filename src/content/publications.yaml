@@ -1,5 +1,18 @@
 - group: "Autonomous Driving, VLM, and AI Safety"
   items:
+    - title: "Context-Aware Conformal Prediction for VLM-Based Driving Scene QA"
+      authors: "YJ Joo, M Abdel-Aty, L Han"
+      venue: "ICML Workshop EMM-QA"
+      year: 2026
+      featured: true
+      tags:
+        - "Conformal Prediction"
+        - "VLM"
+        - "AI Safety"
+      summary: "Applies conformal prediction to calibrate vision-language models (VLM) for autonomous driving scene question answering, guaranteeing reliable confidence bounds in safety-critical settings."
+      industry_relevance: "Provides safety-critical AI systems with calibrated uncertainty estimation, reducing hallucination risks in autonomous vehicle decision-making."
+      link: "https://scholar.google.com/citations?user=xPJpVcMAAAAJ&hl=en"
+
     - title: "MMCAformer: Macro-Micro Cross-Attention Transformer for Traffic Speed Prediction with Microscopic Connected Vehicle Driving Behavior"
       authors: "L Han, M Abdel-Aty, Y Kim, YJ Joo, Z Islam"
       venue: "arXiv preprint arXiv:2602.16730"

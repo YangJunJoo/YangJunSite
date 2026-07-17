@@ -1,0 +1,55 @@
+
+                                           Yang-Jun Joo, Ph.D.
+                                    Data Scientist | Quantitative Risk Assessment
+                  Autonomous Vehicle Safety | Statistical & Probabilistic Modeling | Large-Scale Driving Data
+                                       Orlando, FL  |  Open to relocation to Foster City, CA
+                   yangjunjoo.phd@gmail.com  |  +1 (813) 455-1392  |  LinkedIn  |  GitHub  |  Google Scholar
+
+Professional Summary: Quantitative risk assessment data scientist with 8+ years of experience, including 3+ years of
+post-Ph.D. experience, developing probabilistic safety metrics, uncertainty-aware models, and automated safety
+risk-assessment tools for autonomous vehicle systems. Author/co-author of 15 peer-reviewed papers, with hands-on
+experience in Python, SQL, multi-terabyte driving data, and human behavior analysis.
+
+TECHNICAL SKILLS
+
+Programming & Data:            Python, SQL, R, scikit-learn, PyTorch, Git, Linux, ETL pipelines.
+Risk & Statistics:             Probabilistic modeling, Bayesian networks, reliability analysis, surrogate safety measures,
+                               causal inference, uncertainty quantification, conformal prediction.
+Safety & Mobility:             AV risk assessment, safety-performance metrics, naturalistic driving video,
+                               connected-vehicle and trajectory data, traffic-conflict analysis, human factors.
+
+PROFESSIONAL EXPERIENCE
+
+Postdoctoral Scholar (Quantitative Safety Analytics)                 University of Central Florida      Mar 2024 – Present
+• Led cross-functional safety analytics workstreams for the Florida Department of Transportation, defining and
+    standardizing safety-performance metrics using connected-vehicle and naturalistic driving data.
+• Secured KRW 73.5 million in competitive funding as principal investigator and used causal forests to quantify
+    heterogeneous effects of vehicle automation on risk perception across 926 participants and 1,325 near-miss clips.
+• Built and automated Python and SQL ETL and analytics pipelines for multi-terabyte datasets from 1,000+
+    intersections, standardizing risk-metric generation and reporting.
+• Developed uncertainty-aware evaluation for autonomous-driving vision-language models (VLM) using conformal
+    prediction, identifying context-specific calibration failures in safety-critical driving QA.
+
+Postdoctoral Researcher (AV Safety Systems)                          Seoul National University          Mar 2023 – Feb 2024
+• Led research on real-time infrastructure-to-vehicle (V2I) safety information systems for the Korean National Police
+    Agency, defining safety-critical scenarios and operational safety criteria.
+
+Graduate Research Assistant                                          Seoul National University          Mar 2018 – Feb 2023
+• Developed generalized quantitative risk assessment methods for autonomous vehicle lane changes and collision
+    avoidance using field theory, Bayesian networks, reliability analysis, and surrogate safety measures.
+• Secured and led a KRW 96.1 million Global Ph.D. Fellowship, developing and validating probabilistic AV
+    risk-assessment methods for lane changes, collision avoidance, and driver-level crash risk.
+
+SELECTED PUBLICATIONS
+
+• Joo et al. (2023), "A Generalized Driving Risk Assessment Method for Autonomous Vehicles Using Field Theory,"
+    Analytic Methods in Accident Research.
+• Joo et al. (2022), "A Data-Driven Bayesian Network for Probabilistic Crash Risk Assessment," Accident Analysis &
+    Prevention.
+• Joo et al. (2026), "Context-Aware Conformal Prediction for VLM-Based Driving Scene QA," ICML Workshop EMM-QA.
+
+EDUCATION
+
+Ph.D., Civil & Environmental Engineering (Transportation), Seoul National University, 2023
+B.S., Civil & Environmental Engineering, Seoul National University, 2018
+

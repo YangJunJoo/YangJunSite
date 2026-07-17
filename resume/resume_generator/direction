@@ -301,6 +301,36 @@ The resume should:
 * Avoid orphan words and awkward line breaks.
 * Use a professional file name.
 
+## Resume Design Template Lock
+
+Unless I explicitly request a redesign, every tailored resume must preserve the same visual system as the current approved one-page industry resume template.
+
+Use these defaults for generated PDFs:
+
+* Page size: U.S. Letter.
+* Margins: 36 pt on all sides.
+* Font family: Helvetica only.
+* Name: Helvetica-Bold, 18 pt font size, 21 pt leading, centered, color #0f172a.
+* Headline/title: Helvetica-Bold, 11 pt font size, 14 pt leading, centered, color #1e3a8a or #1d4ed8.
+* Subtitle: Helvetica-Oblique or Helvetica, 9.5 pt font size, 12.5 pt leading, centered, color #475569.
+* Contact line: Helvetica, 9 pt font size, 11.5-12 pt leading, centered, color #334155.
+* Summary/body text: Helvetica, 10 pt font size, 13.2-14 pt leading, color #1e293b or #334155.
+* Section headings: Helvetica-Bold, 11 pt font size, 14 pt leading, uppercase, blue color #1e3a8a or #1d4ed8, with a thin slate divider line.
+* Job titles and skill labels: Helvetica-Bold, 10 pt font size, 13-14 pt leading, color #0f172a.
+* Job metadata: Helvetica, 9.8-10 pt font size, 12.8-14 pt leading, color #475569.
+* Bullets: Helvetica, 10 pt font size, 13.2-14 pt leading, plain ASCII hyphen bullets for ATS stability.
+* Tables may be used only for simple layout alignment in the generated PDF; the extracted text must remain clean and readable.
+
+Do not shrink fonts, leading, margins, or colors merely to force content onto one page. If the content does not fit with this template, first tighten wording, reduce lower-priority bullets, remove less relevant publications, or shorten section labels. Only after content reduction may font size or leading be adjusted, and never below 9.5 pt body text without my explicit approval.
+
+Before finalizing a PDF, compare the generated style against the approved template and confirm:
+
+* Font family is unchanged.
+* Font sizes and leading are within the ranges above.
+* Colors match the approved slate/blue palette.
+* The page is neither crowded nor visibly underfilled.
+* Text extraction is ATS-readable, with no broken skill labels or corrupted bullet characters.
+
 Recommended filename:
 Yang-Jun_Joo_[Company]_[Role]_Resume.pdf
 

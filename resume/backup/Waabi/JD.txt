@@ -1,0 +1,40 @@
+Safety Engineer, Collision Risk
+San Francisco, CA / Remote US / Remote Canada / Pittsburgh, PA / Phoenix, AZ / Dallas, TX / Toronto, ON
+Systems Engineering and Safety – Safety /Full-time
+
+
+
+Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech.
+With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai
+
+
+At the heart of our mission is an unwavering commitment to safety. We are seeking a passionate and experienced safety or systems engineer to spearhead the development and implementation of critical safety framework methods that underpin our driverless autonomy readiness decisions. This is a unique opportunity to shape how Waabi quantitatively ensures and validates the safety of our autonomous trucking solution, working with our highly realistic simulator, real-world data, and cutting-edge generative AI techniques. You will play a pivotal role in creating the evidence for safe operation and leading efforts in a rapidly evolving and groundbreaking field.
+ 
+ 
+You will…
+- Scale safety framework methods by defining requirements for automated assessment workflows and partnering with the autonomy and algorithms teams to implement and debug the evaluation infrastructure.
+- Develop and monitor quantitative metrics to evaluate system performance against established safety targets.
+- Optimize test coverage within Waabi’s high-fidelity simulator to validate driving behaviors across safety-critical scenarios.
+- Define and iterate on human performance benchmarks to support robust comparative safety assessments.
+- Identify safety gaps and ensure traceability between requirements, validation artifacts, and safety case claims.
+- Maintain structured documentation of safety artifacts and readiness decisions to ensure rigorous transparency and traceability.
+ 
+Qualifications:
+- Undergrad required; Masters or PhD within an engineering discipline preferred.
+- 3+ years of automotive, robotics or related industry experience.
+- Experience contributing to the development of a safety case for autonomous vehicles.
+- Experience with using simulation and real-world testing to make readiness decisions.
+- Knowledge of relevant safety methods and standards such as STPA, SOTIF (ISO 21448), ISO/SAE PAS 22736, and UL 4600.
+- Strong fundamentals in mathematics, engineering and physics.
+- Excellent scripting and data analysis skills with tools such as Python and SQL.
+- Ability to communicate complex concepts or data in a simple-yet-accurate manner.
+- Collaborative team player who works effectively across functional boundaries.
+- Passionate about self-driving technologies, solving hard problems, and creating innovative solutions.
+ 
+Bonus/nice to have:
+- Experience in launching a driverless product.
+- Experience in data science and machine learning
+- Experience implementing software systems components.
+- Advanced skills in data mining, mathematics, and statistical analysis.
+ 
+The US yearly salary range for this role is: $126,225 - 163,000 USD and the Canada salary range for this role is: $154,000 - $188,500 CAD in addition to competitive perks & benefits. Waabi US Inc. and Waabi Canada Inc.'s yearly salary ranges are determined based on several factors in accordance with the Company’s compensation practices. The salary base range is reflective of the minimum and maximum target for new hire salaries for the position across all US and Canada locations.  Note: The Company provides additional compensation for employees in this role, including discretionary equity incentive awards and discretionary annual performance bonus. /Remote

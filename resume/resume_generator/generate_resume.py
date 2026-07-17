@@ -275,15 +275,19 @@ add_experience(
 # --- SELECTED PUBLICATIONS ---
 add_divider("Selected Publications")
 story.append(Paragraph(
+    "&bull; Joo et al. (2026), \"Context-Aware Conformal Prediction for VLM-Based Driving Scene QA,\" <i>ICML Workshop EMM-QA</i>.",
+    pub_style
+))
+story.append(Paragraph(
+    "&bull; Joo et al. (2025), \"Evaluating the Effect of Signal Adjustment on Rear-End Conflicts Using High-Resolution Event-Based Data,\" <i>IEEE Transactions on Intelligent Transportation Systems</i>.",
+    pub_style
+))
+story.append(Paragraph(
     "&bull; Joo et al. (2023), \"A Generalized Driving Risk Assessment Method for Autonomous Vehicles Using Field Theory,\" <i>Analytic Methods in Accident Research</i>.",
     pub_style
 ))
 story.append(Paragraph(
-    "&bull; Joo et al. (2022), \"A Data-Driven Bayesian Network for Probabilistic Crash Risk Assessment,\" <i>Accident Analysis & Prevention</i>.",
-    pub_style
-))
-story.append(Paragraph(
-    "&bull; Joo et al. (2026), \"Context-Aware Conformal Prediction for VLM-Based Driving Scene QA,\" <i>ICML Workshop EMM-QA</i>.",
+    "&bull; Joo et al. (2022), \"A Data-Driven Bayesian Network for Probabilistic Crash Risk Assessment of Individual Driver with Traffic Violation and Crash Records,\" <i>Accident Analysis & Prevention</i>.",
     pub_style
 ))
 story.append(Spacer(1, 10))

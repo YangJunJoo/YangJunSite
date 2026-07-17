@@ -1,0 +1,52 @@
+
+                                               Yang-Jun Joo, Ph.D.
+                  Systems & Safety Evaluation Engineer | Conflict Behavior & Systems Evaluation
+                               Orlando, FL  |  yangjun.joo@ucf.edu  |  Linkedin  |  Google Scholar
+
+SUMMARY
+•   Systems and safety evaluation engineer with 7+ years building event- and aggregate-level conflict analytics.
+•   Specialized in open-loop safety evaluation, scalable data pipelines, and triage workflows.
+•   PI on two externally funded AV safety projects; delivered evaluation methods to partner agencies (Florida DOT)
+    for intervention prioritization.
+
+SKILLS
+Programming               Python, SQL, Git, Linux, ETL pipelines, Dashboards & data visualization
+ML/Automation             Workflow automation, VLM-based roadway feature extraction
+Data/Methods              Large-scale processing (20GB/day of event logs), Physics-based modeling, reliability
+                          analysis, uncertainty quantification, Bayesian models, GLMs
+Domain                    Conflict behavior evaluation, traffic safety, safety evaluation, open-loop testing
+
+EXPERIENCE
+University of Central Florida (UCF) - Postdoctoral Scholar                                                   Mar 2024 - Present
+•   Built Python/SQL pipeline that extracts rear-end conflict events from high-resolution logs across 1,000+
+    intersections; updated screening/triage logic based on findings.
+•   Developed micro-hotspot identification for signalized intersections to prioritize conflict zones.
+•   Developed automated triage pipelines for infrastructure features using Vision-Language Models (VLMs) and
+    Google Street View, reducing manual labeling overhead for triage pipelines.
+•   PI for an externally funded study quantifying passenger risk perception from dashcam near-miss/crash clips;
+    delivered evaluation insights for safety prioritization.
+
+Seoul National University (SNU) - Postdoctoral Researcher                                                  Mar 2023 - Feb 2024
+•   Cataloged scenarios where AVs require infrastructure support and converted them into an evaluation-ready
+    benchmark matrix (scenario taxonomy + pass/fail criteria) for scalable behavior review.
+•   Developed physics-based conflict metrics and integrated them into analysis pipelines to support triage and
+    evaluation of infrastructure-aided AV behaviors.
+
+Seoul National University (SNU) - Graduate Research Assistant                                              Mar 2018 - Feb 2023
+•   Performed reliability-based assessment of lane-change risk using observational trajectory data.
+•   Designed probabilistic crash risk models (Bayesian network) using traffic violation and crash records to estimate
+    individual driver risk.
+
+EDUCATION
+Ph.D., Civil & Environmental Engineering, Seoul National University, 2023.
+B.S., Civil & Environmental Engineering, Seoul National University, 2018.
+
+SELECTED IMPACT EVIDENCE
+•   IEEE Transactions on Intelligent Transportation Systems (2025): Evaluating the Effect of Signal Adjustment on
+    Rear-End Conflicts Using High-Resolution Event-Based Data.
+•   Accident Analysis & Prevention (2025): Micro-level hotspot identification at intersections using traffic conflict
+    analysis.
+•   Analytic Methods in Accident Research (2023): A generalized driving risk assessment on high-speed highways
+    using field theory.
+•   Best Paper Award (TRB Urban Transportation Data & Information Systems, 2023; KOTTA, 2021).
+

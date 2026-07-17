@@ -1,0 +1,36 @@
+AV Safety Data Reporting Engineer
+
+Foster City, CASafety Strategy and Operations – Safety Strategy and Operations /Full-time /Hybrid
+
+The AV Safety Software Data Engineer will play a critical role in supporting Zoox’s safety data reporting and compliance efforts. In this position, you will work with large-scale fleet data to gather, analyze, and triage events for internal safety learnings and external compliance requirements. 
+
+As an AV Safety Software Data Reporting Engineer, you will operationalize defined requirements through data-driven analyses, dashboards, and workflow automations. You will implement innovative processes that are rigorous, diligent, and systematic, as well as applicable and repeatable, as Zoox continues to scale, to ensure reliable and safe operations. You will continually improve our internal data-gathering, analysis, and reporting processes and work closely with our Legal, Policy, Operations, Vehicle Engineering, Safety Design, Software, Hardware, and Communications teams to ensure a rigorous, disciplined, quantified engineering approach.
+
+A successful candidate will be able to support other Zoox safety efforts, including Operational Safety, Safety Planning, Policy, System Design, and Risk Assessment activities.
+In this role, you will:
+Create, implement, and maintain our internal and external safety data gathering, analysis, and reporting processes, and work cross-functionally with other internal organizations to ensure accurate regulatory reporting.
+Support the implementation of safety learnings & data programs, processes and dashboards for awareness and decision-making, including systematically ensuring representation and input from key internal stakeholders.
+Continuously improve data pipelines, triage processes, and dashboard functionality to support efficient safety data reporting.
+Leverage AI tools (LLMs/VLMs, prompt engineering, and context engineering) to assist with event summarization, semi-automated triage, and workflow automation.
+Support the continuing development and implementation of successful operational safety and compliance programs.
+Design, build, and maintain dashboards in Looker and Databricks to track safety data reports, learnings, and feature implementation.
+Qualifications
+BS or MS in Computer Science, Data Science, Robotics, Statistics, or a related field.
+4+ years of experience working with large-scale datasets, preferably in autonomous vehicles, robotics, or other safety-critical systems.
+Strong programming skills in Python (pandas, PySpark) and advanced SQL/Spark query development.
+Experience designing and maintaining dashboards in Looker, Databricks, Tableau, or similar platforms.
+Demonstrated attention to detail in analyzing technical, engineering or forensic data.
+Familiarity with AI tools (LLMs/VLMs, prompt engineering, context engineering) for data analysis, triage, or workflow automation.
+Experience working with cross-functional teams and communicating technical content clearly to both engineering and non-technical audiences.
+Bonus Qualifications
+Experience with NHTSA SGO, TREAD, or State AV reporting requirements
+Experience in automated vehicle systems or diagnostic data or large-scale fleet data
+Understanding of AV stack components and vehicle behavior
+Advanced degree in Engineering, or in a technical field
+Certification in Safety or Automotive systems
+$175,000 - $210,000 a year
+Base Salary Range
+ 
+There are three major components to compensation for this position: salary, Amazon Restricted Stock Units (RSUs), and Zoox Stock Appreciation Rights. A sign-on bonus may be offered as part of the compensation package. The listed range applies only to the base salary. Compensation will vary based on geographic location and level. Leveling, as well as positioning within a level, is determined by a range of factors, including, but not limited to, a candidate's relevant years of experience, domain knowledge, and interview performance. The salary range listed in this posting is representative of the range of levels Zoox is considering for this position.
+ 
+Zoox also offers a comprehensive package of benefits, including paid time off (e.g. sick leave, vacation, bereavement), unpaid time off, Zoox Stock Appreciation Rights, Amazon RSUs, health insurance, long-term care insurance, long-term and short-term disability insurance, and life insurance.

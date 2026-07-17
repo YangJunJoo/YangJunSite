@@ -1,0 +1,35 @@
+Senior/Staff Data Scientist, Quantitative Risk Assessment
+Foster City, CASystem Design and Mission Assurance – Systems Engineering - Safety /Full-time /Hybrid
+
+Zoox is on an ambitious journey to develop a full-stack autonomous mobility solution for cities and safely deploy such a robotaxi solution. Zoox’s System Design and Mission Assurance (SDMA) team is responsible for constructing the safety case for each milestone. We play a foundational role for the success of the company. As a data scientist focused on quantitative risk assessment, you will help Zoox to improve and expand our existing safety risk assessment framework. The safety risk assessment framework is a critical part of the overall safety case and informs the decision-making in every aspect of the technology.
+
+In this role, you will:
+Lead efforts to improve the fidelity of Zoox’s safety and progress performance metrics
+
+Apply distributed computing algorithms to efficiently analyze petabytes of urban driving and vehicle testing data
+
+Develop and standardize best practices of safety risk assessment across the company
+
+Develop and automate the tooling of the the risk assessment framework
+
+Contribute to the improvement and evolution of the Safety Case of Zoox technology, in close collaboration with cross-functional teams including Software, Hardware, Vehicle Development, Fleet Operations, Safety Strategy and Operations, Legal, etc.
+
+Qualifications
+M.S. or higher degree in an Engineering or Science discipline with a strong focus on Statistics, Probability Theory, or Data Science
+
+Proficiency in quantitative analysis/modeling tools
+
+Proficient with SQL / Spark / Python for interfacing with Zoox’s urban driving and simulation data
+
+At least 3 years of relevant work experience in understanding and quantifying safety risks
+
+Collaborative team player with strong written and in-person communication skills
+
+Bonus Qualifications
+Ph.D. in an Engineering or Science discipline with a strong Data Science or Statistics focus
+
+Publications in the field of quantitative risk assessment for safety engineering
+
+Experience with human behavior data
+
+$162,000 - $291,000 a year

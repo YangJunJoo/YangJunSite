@@ -51,6 +51,17 @@ const profile = getProfile();
         >
           LinkedIn
         </a>
+
+        {profile.socials.github && (
+          <a
+            href={profile.socials.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-slate-200 text-sm font-semibold bg-white text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors"
+          >
+            GitHub
+          </a>
+        )}
         
         <a
           href={profile.socials.email}
